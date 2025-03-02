@@ -1,7 +1,7 @@
 # Contexto:
 
 Esse projeto é um projeto de uma api feito em dotnet para listas os dados dos bosses do jogo Megaman. O objetivo principal é ter um back-end que fornece json no formato abaixo:
-'''
+
 {
   Id =1,
   Code = "DLN/DRN-003",
@@ -9,7 +9,6 @@ Esse projeto é um projeto de uma api feito em dotnet para listas os dados dos b
   HP = 150,
   Picture = "https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png"
 }
-'''
 
 # Especificação do projeto:
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -31,7 +30,7 @@ Esse projeto é um projeto de uma api feito em dotnet para listas os dados dos b
 </Project>
 
 Os endpoints do projeto são:
-'''
+
 namespace Megaman.Controllers
 {
     //api/v1/robots
@@ -76,7 +75,6 @@ namespace Megaman.Controllers
 
 
     }
-'''
 
 # REGRAS:
 - Sempre que citar alguma dependência do projeto, deixe ele como hyperlink para a página oficial daquela dependência.
