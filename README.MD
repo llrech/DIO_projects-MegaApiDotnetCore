@@ -12,7 +12,6 @@ Esse projeto é um projeto de uma api feito em dotnet para listas os dados dos b
 '''
 
 # Especificação do projeto:
-'''
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -30,7 +29,6 @@ Esse projeto é um projeto de uma api feito em dotnet para listas os dados dos b
   </ItemGroup>
 
 </Project>
-'''
 
 Os endpoints do projeto são:
 '''
